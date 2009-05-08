@@ -1,5 +1,5 @@
 #!/bin/bash
-source ~/.my_git/coverbox_functions.sh
+#source ~/.my_git/coverbox_functions.sh
 
 function proml {
   local        BLUE="\[\033[0;34m\]"

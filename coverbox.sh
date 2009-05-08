@@ -66,8 +66,4 @@ case "$1" in
     ;;
   esac
   ;;
-  
-  "root")
-  cd `git_root`
-  ;;
 esac

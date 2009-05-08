@@ -1,15 +1,10 @@
-[alias]
 	connect-to-remote = !bash ~/.my_git/coverbox.sh remote_track add 
 	disconnect-remote = !bash ~/.my_git/coverbox.sh remote_track del 
-
 	remote-branch-add = !bash ~/.my_git/coverbox.sh remote_branch add 
 	remote-branch-del = !bash ~/.my_git/coverbox.sh remote_branch del 
-
 	publish           = !bash ~/.my_git/coverbox.sh local_change publish 
 	receive           = !bash ~/.my_git/coverbox.sh local_change receive 
 	rid               = !bash ~/.my_git/coverbox.sh local_change rid 
-
 	sms               = !bash ~/.my_git/coverbox.sh submodule status 
 	spull             = !bash ~/.my_git/coverbox.sh submodule pull 
-
 	wtf               = !sh -c 'ruby ~/.my_git/git-wtf.rb'
